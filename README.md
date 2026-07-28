@@ -2,7 +2,9 @@
 
 A clickable prototype of the **Coverage Intelligence** module, the first module in a proposed new **ZAIDYN Market Access** product line. It shows a market-access team a brand's payer coverage at a glance, surfaces emerging access barriers, quantifies the revenue at risk, and has a Copilot recommend the pull-through action to take.
 
-![Dashboard preview](assets/preview.png)
+![Dashboard preview 1](assets/Preview1.png)
+
+![Dashboard preview 2](assets/Preview2.png)
 
 ---
 
@@ -78,7 +80,7 @@ zaidyn-access-dashboard/
 ├── app.js          # renders the data into the page and wires interactions
 ├── assets/
 │   ├── zaidyn-logo.png   # the ZAIDYN by ZS logo
-│   └── preview.png       # screenshot used in this README
+│   └── Preview1.png & Preview2.png      # screenshot used in this README
 └── README.md
 ```
 
