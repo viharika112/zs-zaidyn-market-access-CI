@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZAIDYN Market Access — Coverage Intelligence</title>
+  <meta name="description" content="Coverage Intelligence — monitor payer coverage, surface access barriers, and act before revenue is lost." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <aside class="sidebar" aria-label="Product lines">
+      <div class="sidebar__brand">
+        <img src="assets/zaidyn-logo.png" alt="ZAIDYN by ZS" class="sidebar__logo" />
+      </div>
+      <nav class="nav" aria-label="ZAIDYN product lines">
+        <span class="nav__eyebrow">Product lines</span>
+        <a class="nav__item" href="#">Commercial</a>
+        <a class="nav__item" href="#">Medical</a>
+        <a class="nav__item" href="#">Content</a>
+        <a class="nav__item" href="#">Patient</a>
+        <a class="nav__item nav__item--active" href="#" aria-current="page">
+          Market Access
+          <span class="nav__sub">Coverage Intelligence</span>
+        </a>
+      </nav>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar__title">
+          <h1>Coverage Intelligence</h1>
+          <p class="topbar__context" id="context-line">Cardiova · US · All channels</p>
+        </div>
+        <div class="topbar__meta">
+          <label class="brand-select">
+            <span class="brand-select__label">Brand</span>
+            <select id="brand-select" aria-label="Select brand"></select>
+          </label>
+          <span class="asof" id="asof-line">Coverage as of July 2026</span>
+        </div>
+      </header>
+
+      <section class="content" aria-live="polite">
+        <!-- Metric tiles -->
+        <div class="tiles" id="tiles"></div>
+
+        <!-- Coverage by payer -->
+        <section class="panel" aria-labelledby="coverage-h">
+          <div class="panel__head">
+            <h2 id="coverage-h">Coverage by payer</h2>
+            <span class="panel__hint">Share of covered lives</span>
+          </div>
+          <div class="bars" id="coverage-bars"></div>
+        </section>
+
+        <!-- Barrier alerts -->
+        <section class="panel" aria-labelledby="barriers-h">
+          <div class="panel__head">
+            <h2 id="barriers-h">Barrier alerts</h2>
+            <span class="panel__hint">Ranked by revenue at risk · select one for a recommendation</span>
+          </div>
+          <div class="barriers" id="barriers"></div>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
