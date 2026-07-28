@@ -8,7 +8,7 @@ A clickable prototype of the **Coverage Intelligence** module, the first module 
 
 ---
 
-## ⚠️ Read this first: the data is illustrative
+## Read this first: the data is illustrative
 
 **Every number, payer, brand, and barrier in this prototype is invented for demonstration.** It is not real payer, coverage, or revenue data, and the app is not connected to any live data source or external service. The intent is to show the *interface and the workflow*, not to report real coverage. Nothing here should be presented as actual market data.
 
