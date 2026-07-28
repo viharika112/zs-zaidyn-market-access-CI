@@ -165,6 +165,8 @@ The interface is already built for this: the recommendation renders into a singl
 
 ---
 
-## Where this sits in the bigger picture
+## Project Disclaimer
 
-This prototype is the demo build described in the Coverage Intelligence PRD. The strategic thesis: ZAIDYN shouldn't try to own payer-coverage data (specialist vendors already do) — its edge is combining that bought feed with the company's own field, patient, and claims data, and driving agentic action. The two-source view in the dashboard (bought feed + internal field report, with conflicts flagged) is the visible tip of that idea: no point solution reselling a feed can connect a coverage change to your specific accounts and patients.
+This repository presents an independent product concept created for learning, research, and portfolio purposes. It is not affiliated with, endorsed by, or developed in collaboration with ZS or the ZAIDYN product team. 
+The concept is based on publicly available information and demonstrates product strategy, UX design, AI-assisted workflows, and technical thinking. All brands, payer names, datasets, revenue figures, and coverage scenarios included in this prototype are illustrative only and do not represent real customer or proprietary data.
+
